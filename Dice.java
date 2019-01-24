@@ -15,15 +15,15 @@ public class Dice
      */
     public Dice()
     {
+        int[] rolls = new int[2];
         d1 = new Die();
         d2 = new Die();
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * Designed to return the two numbers from the dice rolled
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @return    dice roll numbers
      */
     public int[] roll()
     {

@@ -1,6 +1,5 @@
-
 /**
- * Write a description of class Die here.
+ * This class here creates a Die
  *
  * @author Marc Panossian
  * @version January 18, 2019
@@ -16,10 +15,15 @@ public class Die
     {
         roll = roll();
     }
-
+    /**
+     * The roll method rolls the die
+     *  
+     * @return the value of the die roll between the numbers
+     * of 1 to 6
+     */
     public int roll()
     {
-        roll = (int) (Math.random() * 6 + 1);
+        roll = (int) (Math.random() * 6) + 1;
         return roll;
     }
 }
